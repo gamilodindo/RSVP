@@ -7,7 +7,7 @@
 .img-fluid {
     max-width: 100%;
     height: auto;
-    width: 30%;
+    width: 50%;
 }
 
 .save-the-date{
@@ -58,6 +58,85 @@
     box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
 }
 
+.section4 {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    padding: 20px; /* Add padding to ensure content is not touching the edges */
+    box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
+}
+
+.section5 {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    padding: 20px; /* Add padding to ensure content is not touching the edges */
+    box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
+}
+
+.section6 {
+    background-color: #ada097;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    padding: 20px; /* Add padding to ensure content is not touching the edges */
+    box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
+}
+
+.section7 {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    padding: 20px; /* Add padding to ensure content is not touching the edges */
+    box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
+}
+
+.section8 {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    padding: 20px; /* Add padding to ensure content is not touching the edges */
+    box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
+}
+
+.section9 {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    padding: 20px; /* Add padding to ensure content is not touching the edges */
+    box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
+}
+
+
 .wedding-details-text{
     font-family: 'Belleza'; 
     font-size: xxx-large;
@@ -77,11 +156,104 @@
     height: 900px;
 }
 
+.attire-guide{
+    width: 40%;
+    height: auto;
+}
+
+.event-gift{
+    width: 60%;
+    height: auto;
+}
+
+.faq-box{
+    border: 4px solid white; 
+    padding: 20px; 
+    color: white;
+    margin: 5px 10px 5px 10px;
+}
+
+.gentle-reminder {
+    width: 60%;
+    height: auto;
+}
+
+.ring{
+    width: 15%;
+    height: auto;
+}
+
+.rsvp{
+    width: 55%;
+    height: auto;
+}
+
+.rsvp-iframe {
+    width: 100%;
+    height: 900px;
+}
+
+.gallery{
+    margin: 15px 5px 15px 5px;
+}
+
+.gallery2{
+    margin: 5px 5px 5px 10px;
+}
+
+.gallery3{
+    margin: 5px 5px 5px 10px;
+}
+
+.snap{
+    width: 40%;
+    height: auto;
+}
+
+
+/* =============== transtions =================== */
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+}
+
+.fade-in.visible {
+    opacity: 1;
+}
+
+.fade-out {
+    opacity: 1;
+    transition: opacity 2s ease-in-out;
+}
+
+.fade-out.hidden {
+    opacity: 0;
+}
+
+.rise-transition {
+    transform: translateY(100%);
+    opacity: 0;
+    transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+}
+
+.rise-transition.visible {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+
+/* ============================================= */
+
 @media (max-width: 600px) {
     
     .img-intro{ 
         width: 100%; 
         height: auto;
+    }
+
+    .banner-img{
+        height: 900px !important;
     }
 
     .img-fluid{
@@ -97,7 +269,7 @@
     }
 
     .section2 p{
-        font-size: 12px;
+        font-size: 12px !important;
     }
 
     .save-the-date{
@@ -129,5 +301,43 @@
     .h-detail{
         font-family: 'Montserrat';
         font-size: 30px;
+    }
+
+    .attire-guide{
+        width: 100%;
+        height: auto;
+    }
+
+    .event-gift{
+        width: 120%;
+        height: auto;
+    }
+    
+    .faq-box h1{
+        font-size: x-large;
+    }
+
+    .faq-box h4{
+        font-size: medium;
+    }
+    
+    .gentle-reminder {
+        width: 100%;
+        height: auto;
+    }
+
+    .rsvp{
+        width: 95%;
+        height: auto;
+    }
+
+    .rsvp-iframe {
+        width: 100%;
+        height: 700px;
+    }
+
+    .gallery3{
+        margin: 5px 5px 5px 10px;
+        height: 500px!important;
     }
 }
