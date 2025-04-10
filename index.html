@@ -20,6 +20,16 @@
         <img src=" ./images/intro.png" alt="Heart" class="img-intro fade-in fade-out" id="heart-image">
     </div> -->
 
+    <div class="modal fade" id="imageModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content" style="background-color: black;">
+            <div class="modal-body p-0">
+              <img src="" id="modalImg" class="img-fluid" alt="Preview">
+            </div>
+          </div>
+        </div>
+      </div>
+
     <div class="view">
         <!-- <div id="content" style="display: none;"> -->
             <div>
@@ -65,10 +75,10 @@
                 </div>
                 <div class="row">
                     <div class="col-6 block2">
-                        <img src="./images/church.png" alt="Header Text" style="width: 100%; height: auto;">
+                        <img src="./images/church.png" alt="Header Text" style="width: 100%; height: auto;cursor:pointer" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="setModalImage(this.src)">
                     </div>
                     <div class="col-6 block4">
-                        <img src="./images/church-map.png" alt="Header Text" style="width: 100%; height: auto;">
+                        <img src="./images/church-map.png" alt="Header Text" style="width: 100%; height: auto;cursor:pointer" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="setModalImage(this.src)">
                     </div>
                 </div>
                 <div class="row block">
@@ -76,10 +86,10 @@
                 </div>
                 <div class="row">
                     <div class="col-6 block2">
-                        <img src="./images/reception.png" alt="Header Text" style="width: 100%; height: auto;">
+                        <img src="./images/reception.png" alt="Header Text" style="width: 100%; height: auto;" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="setModalImage(this.src)">
                     </div>
                     <div class="col-6 block4">
-                        <img src="./images/reception-map.png" alt="Header Text" style="width: 100%; height: auto;">
+                        <img src="./images/reception-map.png" alt="Header Text" style="width: 100%; height: auto;" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="setModalImage(this.src)">
                     </div>
                 </div>
             </div>
@@ -202,7 +212,7 @@
                 <div class="row justify-content-center block2">
                     <img src="./images/rsvp.png" alt="Header Text" class="rsvp">
                 </div>
-                <div class="row block2" style="width: 100%;">
+                <div class="row" style="width: 100%;">
                     <iframe class="rsvp-iframe"
                         src="https://docs.google.com/forms/d/e/1FAIpQLSdc3cMnmY9dfTDqVvigu8y_nJpnrHmijWfEliYxyU3sVnuYkQ/viewform?embedded=true"
                         width="1000px" height="500px" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
@@ -211,54 +221,54 @@
             <div class="section8">
                 <div class="row">
                     <div class="col-6 block">
-                        <img class="gallery" src="./images/g1.JPG" alt="Header Text" style="width: 100%; height: auto;">
+                        <img class="gallery" src="./images/g1.JPG" alt="Header Text" style="width: 100%; height: auto;" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="setModalImage(this.src)">
                     </div>
                     <div class="col-6 block">
                         <img class="gallery " src="./images/g2.JPG" alt="Header Text"
-                            style="width: 100%; height: auto;">
+                            style="width: 100%; height: auto;" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="setModalImage(this.src)">
                     </div>
                 </div>
                 <div class="row block">
-                    <img class="gallery" src="./images/g3.JPG" alt="Header Text" style="width: 100%; height: auto;">
+                    <img class="gallery" src="./images/g3.JPG" alt="Header Text" style="width: 100%; height: auto;" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="setModalImage(this.src)">
                 </div>
                 <div class="row">
                     <div class="col-6">
                         <div class="row block">
                             <img class="gallery" src="./images/g4.JPG" alt="Header Text"
-                                style="width: 100%; height: auto;">
+                                style="width: 100%; height: auto;" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="setModalImage(this.src)">
                         </div>
                         <div class="row block">
                             <img class="gallery" src="./images/g5.JPG" alt="Header Text"
-                                style="width: 100%; height: auto;">
+                                style="width: 100%; height: auto;" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="setModalImage(this.src)">
                         </div>
                     </div>
                     <div class="col-6 block">
-                        <img class="gallery" src="./images/g6.JPG" alt="Header Text" style="width: 100%; height: auto;">
+                        <img class="gallery" src="./images/g6.JPG" alt="Header Text" style="width: 100%; height: auto;" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="setModalImage(this.src)">
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-6">
                         <div class="row block">
                             <img class="gallery" src="./images/g7.JPG" alt="Header Text"
-                                style="width: 100%; height: auto;">
+                                style="width: 100%; height: auto;" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="setModalImage(this.src)">
                         </div>
                         <div class="row block">
                             <img class="gallery" src="./images/g8.JPG" alt="Header Text"
-                                style="width: 100%; height: auto;">
+                                style="width: 100%; height: auto;" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="setModalImage(this.src)">
                         </div>
                     </div>
                     <div class="col-6 block">
-                        <img class="gallery" src="./images/g9.JPG" alt="Header Text" style="width: 100%; height: auto;">
+                        <img class="gallery" src="./images/g9.JPG" alt="Header Text" style="width: 100%; height: auto;" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="setModalImage(this.src)">
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-6 block">
                         <img class="gallery" src="./images/g10.jpg" alt="Header Text"
-                            style="width: 100%; height: auto;">
+                            style="width: 100%; height: auto;" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="setModalImage(this.src)">
                     </div>
                     <div class="col-6 block">
                         <img class="gallery" src="./images/g11.jpg" alt="Header Text"
-                            style="width: 100%; height: auto;">
+                            style="width: 100%; height: auto;" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="setModalImage(this.src)">
                     </div>
                 </div>
             </div>
@@ -346,7 +356,11 @@
             });
         });
     </script>
-
+    <script>
+        function setModalImage(src) {
+          document.getElementById('modalImg').src = src;
+        }
+      </script>
 </body>
 
 </html>
