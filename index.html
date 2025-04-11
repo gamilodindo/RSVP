@@ -8,6 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -21,10 +22,10 @@
     </div>
 
     <div class="modal fade" id="imageModal" tabindex="-1">
-        <div class="modal-dialog modal-dialog-centered">
-          <div class="modal-content" style="background-color: black;">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+          <div class="modal-content" style="background-color: black;position: relative;">
             <div class="modal-body p-0">
-              <img src="" id="modalImg" class="img-fluid" alt="Preview">
+              <img src="" id="modalImg" class="img-preview w-100 h-100 cover" alt="Preview">
             </div>
           </div>
         </div>
@@ -55,13 +56,8 @@
                     <iframe class="date-counter" src="https://www.tickcounter.com/widget/countdown/6872600" title="APR 30 2025 | 1:00pm"></iframe>
                 </div>
             </div>
-            <!-- <div class="col-12 image2"
+            <div class="col-12 image2"
                 style="background-image: url('./images/image2.JPG'); background-size: cover; background-position: center; height: 900px;">
-            </div> -->
-            <div class="col-12" style="background-color: black;">
-                <video autoplay loop muted playsinline style="width: 100%;height: auto;">
-                    <source src="./images/vid.mp4" type="video/mp4">
-                </video>
             </div>
             <div class="section3">
                 <div class="row block">
@@ -112,7 +108,7 @@
             </div>
             <div class="col-12" style="background-color: black;">
                 <video autoplay loop muted playsinline style="width: 100%;height: auto;">
-                    <source src="./images/prenup 2.mp4" type="video/mp4">
+                    <source src="./images/vid.mp4" type="video/mp4">
                 </video>
             </div>
             <div class="section5">
@@ -120,12 +116,10 @@
                     <img src="./images/event-gift.png" alt="Header Text" class="event-gift">
                 </div>
             </div>
-            <!-- <div class="col-12 image2"
-                            style="background-image: url('./images/image5.JPG'); background-size: cover; background-position: center; height: 900px;">
-                        </div> -->
-            
-            <div class="col-12 image2"
-                style="background-image: url('./images/image5.JPG'); background-size: cover; background-position: center; height: 900px;">
+            <div class="col-12" style="background-color: #ada097;">
+                <video autoplay loop muted playsinline style="width: 100%;height: auto;">
+                    <source src="./images/prenup 2.mp4" type="video/mp4">
+                </video>
             </div>
             <div class="section6">
                 <div class="row justify-content-center block">
@@ -232,34 +226,28 @@
                     <img class="gallery" src="./images/g3.JPG" alt="Header Text" style="width: 100%; height: auto;" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="setModalImage(this.src)">
                 </div>
                 <div class="row">
-                    <div class="col-6">
-                        <div class="row block">
-                            <img class="gallery" src="./images/g4.JPG" alt="Header Text"
-                                style="width: 100%; height: auto;" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="setModalImage(this.src)">
-                        </div>
-                        <div class="row block">
-                            <img class="gallery" src="./images/g5.JPG" alt="Header Text"
-                                style="width: 100%; height: auto;" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="setModalImage(this.src)">
-                        </div>
+                    <div class="col-6 block">
+                        <img class="gallery" src="./images/g4.JPG" alt="Header Text" style="width: 100%; height: auto;" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="setModalImage(this.src)">
                     </div>
                     <div class="col-6 block">
-                        <img class="gallery" src="./images/g6.JPG" alt="Header Text" style="width: 100%; height: auto;" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="setModalImage(this.src)">
+                        <img class="gallery " src="./images/g5.JPG" alt="Header Text"
+                            style="width: 100%; height: auto;" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="setModalImage(this.src)">
                     </div>
                 </div>
+                <div class="row block">
+                    <img class="gallery" src="./images/g6.JPG" alt="Header Text" style="width: 100%; height: auto;" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="setModalImage(this.src)">
+                </div>
                 <div class="row">
-                    <div class="col-6">
-                        <div class="row block">
-                            <img class="gallery" src="./images/g7.JPG" alt="Header Text"
-                                style="width: 100%; height: auto;" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="setModalImage(this.src)">
-                        </div>
-                        <div class="row block">
-                            <img class="gallery" src="./images/g8.JPG" alt="Header Text"
-                                style="width: 100%; height: auto;" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="setModalImage(this.src)">
-                        </div>
+                    <div class="col-6 block">
+                        <img class="gallery" src="./images/g7.JPG" alt="Header Text" style="width: 100%; height: auto;" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="setModalImage(this.src)">
                     </div>
                     <div class="col-6 block">
-                        <img class="gallery" src="./images/g9.JPG" alt="Header Text" style="width: 100%; height: auto;" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="setModalImage(this.src)">
+                        <img class="gallery " src="./images/g8.JPG" alt="Header Text"
+                            style="width: 100%; height: auto;" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="setModalImage(this.src)">
                     </div>
+                </div>
+                <div class="row block">
+                    <img class="gallery" src="./images/g9.JPG" alt="Header Text" style="width: 100%; height: auto;" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="setModalImage(this.src)">
                 </div>
                 <div class="row">
                     <div class="col-6 block">
@@ -271,20 +259,27 @@
                             style="width: 100%; height: auto;" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="setModalImage(this.src)">
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-6 block">
+                        <img class="gallery" src="./images/g12.jpg" alt="Header Text"
+                            style="width: 100%; height: auto;" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="setModalImage(this.src)">
+                    </div>
+                    <div class="col-6 block">
+                        <img class="gallery" src="./images/g13.jpg" alt="Header Text"
+                            style="width: 100%; height: auto;" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="setModalImage(this.src)">
+                    </div>
+                </div>
             </div>
             <div class="section9">
                 <div class="row justify-content-center block">
                     <img src="./images/snap.png" alt="Header Text" class="snap">
                 </div>
             </div>
-            <div class="col-12 image2"
-                style="background-image: url('./images/image6.jpg'); background-size: cover; background-position: center; height: 900px;">
-            </div>
             <div class="justify-content-center" style="position: relative;">
                 <img src="./images/see-you.png" alt="Middle Top Image" class="see-you"
                     style="margin-top:40px; position: absolute; z-index: 2;width: 100%;transform: scale(0.4);">
                 <div class="col-12 image2 gallery3"
-                    style="background-image: url('./images/image7.JPG'); background-size: cover; background-position: center; height: 100vh; width: 100%; z-index: 1;">
+                    style="background-image: url('./images/image7.JPG'); background-size: cover; background-position: center; height: 100vh!important; width: 100%; z-index: 1;">
                 </div>
             </div>
         </div>

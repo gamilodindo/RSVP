@@ -16,6 +16,12 @@
     max-width: 100%;
     height: auto;
     width: 50%;
+    margin-bottom: 5vh;
+}
+
+.img-preview {
+    max-width: 100%;
+    height: auto;
 }
 
 .save-the-date{
@@ -226,6 +232,10 @@
     height: auto;
 }
 
+.see-you{
+    margin-top : -180px !important;
+}
+
 
 /* =============== transtions =================== */
 
@@ -273,6 +283,12 @@
     }
 
     .img-fluid{
+        width: 100%;
+        height: auto;
+        margin-bottom: 5vh;
+    }
+
+    .img-preview {
         width: 100%;
         height: auto;
     }
@@ -368,6 +384,7 @@
 
     .see-you{
         transform: scale(1)!important;
+        margin-top : 100px !important;
     }
 }
 
