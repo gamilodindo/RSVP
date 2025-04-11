@@ -322,7 +322,9 @@
             let hasPlayed = false;
 
             function playMusicOnScroll() {
-                if (!hasPlayed) {
+                
+                setInterval(() => {
+                    if (!hasPlayed) {
                     audio.play().then(() => {
                         console.log("Audio started playing.");
                         hasPlayed = true;
@@ -331,6 +333,7 @@
                         console.error("Playback error:", error);
                     });
                 }
+                }, 1800); // Check every second
             }
 
             // Listen for the first scroll to trigger audio
